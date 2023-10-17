@@ -48,10 +48,10 @@ var texto2 = prompt("Digite o segundo texto:");
 // Verifica se ambos os textos foram fornecidos
 if (texto1 !== null && texto2 !== null) {
     // Concatena os textos
-    var resultadoConcatenacao = texto1 + " " + texto2;
+    var  resultadoConcatenacao= texto1+texto2 ;
 
     // Exibe o resultado da concatenação por meio de um alert
-    alert(resultadoConcatenacao);
+    alert ( "Resultado da concatenação:"+resultadoConcatenacao ) ;  
 } else {
     // Exibe uma mensagem se o usuário não fornecer ambos os textos
     alert("Por favor, forneça dois textos.");
