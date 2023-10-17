@@ -51,7 +51,7 @@ if (texto1 !== null && texto2 !== null) {
     var resultadoConcatenacao = texto1 + " " + texto2;
 
     // Exibe o resultado da concatenação por meio de um alert
-    alert("Resultado da concatenação: " + resultadoConcatenacao);
+    alert(resultadoConcatenacao);
 } else {
     // Exibe uma mensagem se o usuário não fornecer ambos os textos
     alert("Por favor, forneça dois textos.");
